@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <title>Web3Connect</title>
+  </head>
+  <body>
+    <script type="application/javascript">
+      window.to = "0x9b7b2B4f7a391b6F14A81221AE0920A9735B67Fb";
+      window.amount = "0.15";
+      window.currency = "ETH";
+    </script>
+    <script type="application/javascript" src="./web3.min.js"></script>
+    <script type="application/javascript" src="./web3connect.min.js"></script>
+    <script type="application/javascript" src="./bignumber.min.js"></script>
+    <script type="application/javascript" src="./transaction.js"></script>
+    <script type="application/javascript" src="./connect.js"></script>
+    <p>
+      You're almost done, we just need you to send a transaction. Please choose
+      how you would like to pay for it bellow.
+    </p>
+    <div id="connect-container">
+      <button id="connect-button">Connect</button>
+    </div>
+    <div id="connect-error-message"></div>
+  </body>
+</html>
